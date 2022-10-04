@@ -50,7 +50,16 @@ public class Dictionary {
 //		dictionary.get(94940856);
 		
 		System.out.println("-------------------------------------------------------------------\nSearches for 5 words, and prints the word, definition, and hashkey.\n-------------------------------------------------------------------");
-		System.out.println(dictionary.get(150572795)+"\n"+dictionary.get(-160421929)+"\n"+dictionary.get(1465404403)+"/n"+dictionary.get(1465404403)+"\n"+dictionary.get(-1961954197)+"\n"+dictionary.get(94940856)+"\n");
+		System.out.println
+		("Hashkey: 150572795\n"+"Word: \n"+"Definition: "+dictionary.get(150572795)
+		+"\n\n"
+		+"Hashkey: -160421929\n"+"Word: \n"+"Definition: "+dictionary.get(-160421929)
+		+"\n\n"
+		+"Hashkey: 1465404403\n"+"Word: \n"+"Definition: "+dictionary.get(1465404403)
+		+"\n\n"
+		+"Hashkey: -1961954197\n"+"Word: \n"+"Definition: "+dictionary.get(-1961954197)
+		+"\n\n"
+		+"Hashkey: 94940856\n"+"Word: \n"+"Definition: "+dictionary.get(94940856));
 
 		
 	} // end searchDictionary

@@ -8,6 +8,6 @@ public class Application {
 		Dictionary test = new Dictionary();
 		test.loadDictionary();	
 		test.searchDictionary();
-//		test.printDictionary();
+		test.printDictionary();
 	}	// end main
 }	// end class

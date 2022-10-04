@@ -28,7 +28,7 @@ public class Dictionary {
 		while (scan.hasNextLine()) { //prints .txt file words & definitions
 			String data = scan.nextLine();// scans each line of .txt file
 			String [] newData = data.split("\t"); // splits words from definitions by using tab as argument
-			System.out.println("key HashCode = "+newData[0].hashCode()); // displays HashCode value for key
+			System.out.println("HashKey = "+newData[0].hashCode()); // displays HashCode value for key
 			System.out.println("key = " +newData[0]); // displays key as a String
 			System.out.println("value = "+newData[1]+"\n"); // displays value as a String
 			
@@ -49,17 +49,17 @@ public class Dictionary {
 //		dictionary.get(-1961954197);
 //		dictionary.get(94940856);
 		
-		System.out.println("-------------------------------------------------------------------\nSearches for 5 words, and prints the word, definition, and hashkey.\n-------------------------------------------------------------------");
+		System.out.println("---------------------------------------------------------\nSearches for 5 words. Prints HashKey, word, & definition\n---------------------------------------------------------");
 		System.out.println
-		("Hashkey: 150572795\n"+"Word: \n"+"Definition: "+dictionary.get(150572795)
+		("Hashkey: 150572795\n"+"Word: pistoleer\n"+"Definition: "+dictionary.get(150572795)
 		+"\n\n"
-		+"Hashkey: -160421929\n"+"Word: \n"+"Definition: "+dictionary.get(-160421929)
+		+"Hashkey: -160421929\n"+"Word: otherwhere\n"+"Definition: "+dictionary.get(-160421929)
 		+"\n\n"
-		+"Hashkey: 1465404403\n"+"Word: \n"+"Definition: "+dictionary.get(1465404403)
+		+"Hashkey: 1465404403\n"+"Word: morrow,the\n"+"Definition: "+dictionary.get(1465404403)
 		+"\n\n"
-		+"Hashkey: -1961954197\n"+"Word: \n"+"Definition: "+dictionary.get(-1961954197)
+		+"Hashkey: -1961954197\n"+"Word: lordling\n"+"Definition: "+dictionary.get(-1961954197)
 		+"\n\n"
-		+"Hashkey: 94940856\n"+"Word: \n"+"Definition: "+dictionary.get(94940856));
+		+"Hashkey: 94940856\n"+"Word: cruse\n"+"Definition: "+dictionary.get(94940856)+"\n");
 
 		
 	} // end searchDictionary
